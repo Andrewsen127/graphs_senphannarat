@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphs_senphannarat"
+version = "0.1.0"
+description = "Graph algorithms library including Dijkstra’s shortest path"
+readme = "README.md"
+authors = [
+  { name="Andrew Senphannarat", email="andrew-sen@hotmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
